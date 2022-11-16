@@ -1,0 +1,98 @@
+.container {
+    margin:auto;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/1f/3d/43/1f3d43bcd2f77090fe4e8ee181654a3e.jpg');
+    background-size: cover
+}
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: "Lucida Console", Monospace;
+    font-size: 57px;
+    text-align: center;
+}
+h2 {
+    color:rgb(0, 0, 0);
+    font-family: "Lucida Console", Monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    color:#80659e;
+    font-family: "Lucida Console", Monospace;
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    color:rgb(0, 0, 0);
+    font-family: "Lucida Console", Monospace;
+    font-size: 25px
+}
+
+.box-1 {
+    background-color:#9660f9;
+    border-color: #350393;
+    width: 1000px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
+.box-2 {
+    background-color:#ee714e;
+    border-color: #b85f00;
+    width: 1000px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
+.box-3 {
+    background-color:#8398f9;
+    border-color: #132c9f;
+    width: 750px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
+.box-4 {
+    background-color:#fdadd5;
+    border-color: #f984f3;
+    width: 750px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.button {
+    background-color:#80659e;
+    border-color: #270b5a;
+    border-radius: 10px;
+    border-style: groove;
+    margin: auto;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
